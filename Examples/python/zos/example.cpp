@@ -17,5 +17,5 @@ int fact(int n) {
 }
 
 int my_mod(int x, int y) {
-    return MODULUS(x, y);
+    return MODULUS(&x, &y);
 }

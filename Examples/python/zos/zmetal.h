@@ -11,7 +11,7 @@ extern "C"
 {
 #endif
 
-int MODULUS(int x, int y);
+int MODULUS(int* x, int* y);
 
 #if defined(__cplusplus)
 }
