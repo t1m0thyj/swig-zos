@@ -540,10 +540,10 @@ Makefile: $(srcdir)/Makefile.in config.status
 # changed.
 am--refresh: $(srcdir)/configure
 
-$(srcdir)/configure: $(srcdir)/configure.ac
-	@echo "Build system is out of date.  If the following commands fail, please reconfigure by hand (rerun: ./autogen.sh && ./configure)"
-	cd $(srcdir) && ./autogen.sh
-	$(SHELL) ./config.status --recheck
+# $(srcdir)/configure: $(srcdir)/configure.ac
+# 	@echo "Build system is out of date.  If the following commands fail, please reconfigure by hand (rerun: ./autogen.sh && ./configure)"
+# 	cd $(srcdir) && ./autogen.sh
+# 	$(SHELL) ./config.status --recheck
 
 ############################################################################
 # Tools
